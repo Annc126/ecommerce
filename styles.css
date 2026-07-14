@@ -31,7 +31,7 @@ a {
 }
 
 .a:hov {
-  hover-decoration: underline;
+text-decoration: underline;
 
 }
 
@@ -172,7 +172,7 @@ h2 {
 
   #highlights {
     position: relative;
-    max-width: 100vh;
+    width: 100%;
 }
 
   #highlights:after,
@@ -180,7 +180,7 @@ h2 {
     background: url(assets/wave.svg);
     content: "";
     position: absolute;
-    width: 101vw;
+    width: 100vw;
     height: 12vw;
     left: 0;
     z-index: 1;
