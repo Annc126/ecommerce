@@ -12,7 +12,7 @@ html {
 
 body {
   max-width: 100vh;
-  overflow-x; hidden;
+  overflow-x: hidden;
 }
 
 nav {
@@ -110,6 +110,11 @@ text-decoration: none;
  display: flex;
  justify-content: center;
  align-items: center;
+ display: none;
+}
+
+.menu--open .menu__backdrop {
+  display: flex;
 }
 
 .menu__links {
@@ -137,9 +142,9 @@ text-decoration: none;
 }
 
 
-/* L
+/* 
 
-ANDING 
+LANDING 
 
 */
 
@@ -390,6 +395,11 @@ h2 {
     padding: 0 8px;
   }
 
+@media (max-width: 550px) {
+  .nav__links {
+    display: none;
+  }
+}
 
 
 
