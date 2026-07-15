@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  max-width: 100vh;
+  overflow-x; hidden;
+}
 
 nav {
   height: 80px;
